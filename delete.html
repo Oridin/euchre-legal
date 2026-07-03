@@ -1,0 +1,107 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Euchre — Delete Your Account</title>
+<style>
+  :root{
+    --felt:#0a5c33;--felt-deep:#073f24;--card:#f7f4ec;--ink:#22271f;
+    --ink-soft:#55604f;--gold:#c69214;--rule:#e2dccb;--red:#b23a3a;--measure:60ch;
+  }
+  *{box-sizing:border-box;margin:0;padding:0}
+  .page{min-height:100vh;
+    background:radial-gradient(120% 80% at 50% -10%,#0e7040 0%,var(--felt) 45%,var(--felt-deep) 100%);
+    padding:clamp(1.5rem,5vw,4rem) 1.25rem clamp(3rem,8vw,5rem);
+    font-family:system-ui,-apple-system,"Segoe UI",sans-serif;color:var(--ink);line-height:1.6}
+  .sheet{max-width:44rem;margin:0 auto;background:var(--card);border-radius:14px;
+    border:1px solid rgba(0,0,0,.08);box-shadow:0 24px 60px -20px rgba(0,0,0,.55);overflow:hidden}
+  header{padding:clamp(2rem,5vw,3rem) clamp(1.5rem,5vw,3.25rem) clamp(1.5rem,4vw,2rem);
+    border-bottom:2px solid var(--rule);text-align:center}
+  .suits{display:flex;justify-content:center;gap:.5rem;font-size:1.3rem;margin-bottom:1rem}
+  .suits .r{color:var(--red)}.suits .b{color:var(--ink)}
+  .eyebrow{font-size:.72rem;font-weight:700;letter-spacing:.24em;text-transform:uppercase;
+    color:var(--gold);margin-bottom:.5rem}
+  h1{font-family:"Iowan Old Style","Palatino Linotype",Palatino,Georgia,serif;
+    font-size:clamp(1.9rem,6vw,2.7rem);line-height:1.06;margin:0;text-wrap:balance}
+  .sub{margin-top:.9rem;font-size:1.02rem;color:var(--ink-soft);max-width:var(--measure);
+    margin-left:auto;margin-right:auto}
+  .body{padding:clamp(1.75rem,5vw,2.75rem) clamp(1.5rem,5vw,3.25rem) clamp(2rem,5vw,3rem)}
+  section{max-width:var(--measure);margin:0 auto}
+  section+section{margin-top:2rem;padding-top:2rem;border-top:1px solid var(--rule)}
+  h2{font-family:"Iowan Old Style",Palatino,Georgia,serif;font-size:1.3rem;margin-bottom:.8rem;
+    color:var(--felt-deep)}
+  ol{counter-reset:step;list-style:none;padding:0;margin:0}
+  ol li{position:relative;padding-left:3rem;margin-bottom:1.1rem;min-height:2rem}
+  ol li::before{counter-increment:step;content:counter(step);position:absolute;left:0;top:-.1rem;
+    width:2rem;height:2rem;border-radius:50%;background:var(--felt);color:#fff;font-weight:800;
+    display:grid;place-items:center;font-size:.95rem}
+  ol li b{color:var(--ink)}
+  ul{list-style:none;padding:0;margin:.4rem 0 0}
+  ul li{position:relative;padding-left:1.5rem;margin-bottom:.5rem}
+  ul li::before{content:"\2663";position:absolute;left:0;top:.05em;color:var(--gold);font-size:.85em}
+  p{margin-bottom:.9rem;max-width:var(--measure)}
+  .note{padding:.9rem 1.1rem;background:#eef4ec;border-left:3px solid var(--felt);
+    border-radius:0 8px 8px 0;font-size:.96rem;margin-top:.6rem}
+  a{color:var(--gold);text-underline-offset:2px}
+  strong{color:var(--ink)}
+  footer{max-width:var(--measure);margin:2.25rem auto 0;padding-top:1.4rem;
+    border-top:2px solid var(--rule);font-size:.9rem;color:var(--ink-soft)}
+  .signoff{text-align:center;margin-top:clamp(1.5rem,4vw,2rem);color:rgba(255,255,255,.5);
+    font-size:.8rem;letter-spacing:.04em}
+</style>
+</head>
+<body>
+<div class="page">
+  <div class="sheet">
+    <header>
+      <div class="suits"><span class="b">&#9824;</span><span class="r">&#9829;</span><span class="b">&#9827;</span><span class="r">&#9830;</span></div>
+      <p class="eyebrow">Euchre &middot; by Oridin</p>
+      <h1>Delete your account</h1>
+      <p class="sub">You can permanently delete your <strong>Euchre</strong> account and all
+        associated data at any time, directly in the app.</p>
+    </header>
+    <div class="body">
+      <section>
+        <h2>In the app (instant)</h2>
+        <ol>
+          <li>Open <b>Euchre</b> and tap <b>Play Online</b> from the main menu.</li>
+          <li>Tap your <b>profile card</b> at the top of the lobby.</li>
+          <li>Scroll down and tap <b>Delete account</b>, then confirm.</li>
+        </ol>
+        <p class="note">Your account and all associated data are removed immediately and permanently.
+          This cannot be undone.</p>
+      </section>
+
+      <section>
+        <h2>By email</h2>
+        <p>If you can&rsquo;t access the app, email
+          <a href="mailto:mickfulton@gmail.com">mickfulton@gmail.com</a> from the address linked to
+          your account and ask us to delete it. We&rsquo;ll action the request and confirm.</p>
+      </section>
+
+      <section>
+        <h2>What gets deleted</h2>
+        <p>Deleting your account permanently removes all of the following:</p>
+        <ul>
+          <li>Your account and email address</li>
+          <li>Your profile &mdash; display name, avatar, XP and level</li>
+          <li>Your stats &mdash; games, wins, streaks and leaderboard entry</li>
+          <li>Your friends list and friend requests</li>
+          <li>Your match history</li>
+        </ul>
+        <p style="margin-top:.9rem"><strong>Data retained:</strong> none tied to your identity.
+          Deletion is immediate and complete; there is no additional retention period. (Anonymous,
+          non-identifying game records that never reference your account may remain.)</p>
+      </section>
+
+      <footer>
+        <p>Questions: <a href="mailto:mickfulton@gmail.com">mickfulton@gmail.com</a> &nbsp;&middot;&nbsp;
+          <a href="./">Privacy policy</a></p>
+      </footer>
+    </div>
+  </div>
+  <p class="signoff">Euchre &middot; published by Oridin</p>
+</div>
+</body>
+</html>
